@@ -2,5 +2,5 @@ import figletControllers from '../controllers/figlet';
 import express, { Router, Request, Response } from "express";
 
 export const router: Router = express.Router();
-router.get('/:text', figletControllers.getClassic)
-router.get('/ghost/:text', figletControllers.getGhost);
+router.get('/', figletControllers.getClassic);
+router.get('/:font/', figletControllers.getCustom);
