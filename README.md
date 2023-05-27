@@ -10,7 +10,7 @@ npm i
 npm run dev
 ```
 ## How to use
-This server supports two configs of figlet. Classic and Ghost font.
+This server supports ~~two configs~~ every font of figlet. ~~Classic and Ghost font.~~
 ```bash
 $ curl "http://127.0.0.1:8000/api/hi" # Classic endpoint
   _     _ 
@@ -20,7 +20,7 @@ $ curl "http://127.0.0.1:8000/api/hi" # Classic endpoint
  |_| |_|_|
 ```
 ```bash
-$ curl "http://127.0.0.1:8000/api/ghost/hi" # Ghost endpoint
+$ curl "http://127.0.0.1:8000/api/Ghost/hi" # Ghost endpoint
  ('-. .-.          
 ( OO )  /          
 ,--. ,--.  ,-.-')  
